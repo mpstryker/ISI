@@ -1,0 +1,4 @@
+function ydeg = p2dy(ypix)
+    ydeg = ((ypix-(ywinpix/2))/degperpix)+cpel;
+end
+
